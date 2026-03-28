@@ -48,3 +48,36 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+## i have created a new expo project with commend npx create-expo-app@latest with app name as frontend
+
+## then cd frotnend then i have remove extra files by commned npm run reset-project
+
+## for starting application on our mobile expo app i have used this commend npx expo
+
+## ABOUT THEME SETTING
+
+<!--
+1. Create Context
+
+    A context is initialized with a default value (undefined) and a TypeScript type.
+
+    This ensures type safety and helps detect misuse.
+
+2.Provider Setup
+
+   ThemeProvider manages:
+
+   isDarkMode → current theme state
+
+   toggleDarkMode → function to switch themes
+
+   colors → theme-based color values
+
+   These values are passed through the Provider.
+
+3. Accessing Context
+
+    A custom hook useTheme is used to consume the context.
+
+    It ensures the context is only used within the ThemeProvider. -->
