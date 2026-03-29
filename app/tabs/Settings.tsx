@@ -14,6 +14,7 @@ const Settings = () => {
 
     const { colors, isDarkMode, toggleDarkMode } = useTheme();
     const settingStyles = createSettingsStyles(colors)
+    console.log("Convex URL:", process.env.EXPO_PUBLIC_CONVEX_URL);
     return (
         <LinearGradient colors={colors.gradients.background} style={settingStyles.container}>
             <SafeAreaView style={settingStyles.safeArea}>

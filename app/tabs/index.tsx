@@ -87,6 +87,7 @@ export default function Index() {
 
 
   const renderTodoItem = ({ item }: { item: TodoTy }) => {
+    console.log("Convex URL:", process.env.EXPO_PUBLIC_CONVEX_URL);
     return <View style={homeStyles.todoItemWrapper}>
       <LinearGradient colors={colors.gradients.surface}
         style={homeStyles.todoItem}

@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.satishvarma_82.frontend"
     },
     "web": {
       "output": "static",
@@ -43,6 +44,14 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+       "EXPO_PUBLIC_CONVEX_URL": "https://dashboard.convex.dev/d/amiable-opossum-393",
+      "router": {},
+      "eas": {
+        "projectId": "2225ca2b-cd3f-47b7-8caa-996a1050e353"
+      }
+    },
+    "owner": "satishvarma_82"
   }
 }
